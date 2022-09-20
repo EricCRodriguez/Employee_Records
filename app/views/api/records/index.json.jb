@@ -1,0 +1,10 @@
+# app/views/api/photos/index.json.jb
+@records.map do |record|
+  {
+    id: record.id,
+    first_name: record.first_name,
+    last_name: record.last_name,
+    email: record.email,
+    bio: record.bio
+  }
+end
