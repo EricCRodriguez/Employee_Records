@@ -37,4 +37,4 @@ class Api::RecordsController < ApplicationController
     render json: {message: "Employee Record successfully deleted."}
   end
 end
-end
+
